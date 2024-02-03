@@ -1,0 +1,17 @@
+[package]
+name = "dlmm-tui"
+version = "0.1.0"
+authors = ["Harun <master.harun@gmail.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.35.1", features = ["full", "parking_lot"] }
+futures = "0.3.30"
+clap = "4.4.18"
+crossterm = { version = "0.27.0", features = ["event-stream"] }
+ratatui = "0.26.0"
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0" 
+anchor-client={version="0.29.0", features=["async"]}
+rust_decimal = { version = "1.34.2", features = ["maths"] }
