@@ -1,3 +1,6 @@
+The Excalidraw concept:
+https://excalidraw.com/#room=4388aa7028d7577b1b65,lJo-WmyDKTTstXygBGBDYA
+
 ## Simple Async template
 
 This simple async template will create the following project structure:

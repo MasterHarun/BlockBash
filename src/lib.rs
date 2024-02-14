@@ -12,3 +12,14 @@ pub mod tui;
 
 /// Event handler.
 pub mod handler;
+
+/// The root screen
+pub mod root;
+/// The tab pages
+pub mod tabs;
+/// Theme
+pub mod theme;
+
+pub mod colors;
+
+pub mod widget;
